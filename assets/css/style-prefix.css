@@ -1862,6 +1862,31 @@ iframe {
   padding-bottom: 30px;
 }
 
+/* Kampanya */
+
+.kampanya {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgb(234, 234, 234);
+  border-radius: 12px;
+}
+
+.kampanya-resim {
+  height: 13rem;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 10px;
+}
+
+.kampanyalar {
+  display: grid;
+  grid-template-rows: auto; /* Auto column */
+  grid-template-columns: repeat(3, 1fr); /* 3 rows with equal height */
+  gap: 40px; /* Adjust the gap as per your design */
+  margin: 0; /* Remove default margin */
+}
+
+
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
