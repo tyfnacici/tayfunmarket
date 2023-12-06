@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TayfunMarket</title>
+
+    <!--
+    - favicon
+  -->
+    <link rel="shortcut icon" href="../assets/images/logo/favicon.ico" type="image/x-icon" />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="../assets/css/style-prefix.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="overlay" data-overlay></div>
+
+    <!--
+    - MODAL
+  -->
+
+    <div class="modal" data-modal>
+        <div class="modal-close-overlay" data-modal-overlay></div>
+
+        <div class="modal-content">
+            <button class="modal-close-btn" data-modal-close>
+                <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="newsletter-img">
+                <img src="../assets/images/asd.png" alt="subscribe newsletter" width="400" height="400" />
+            </div>
+
+            <div class="newsletter">
+                <form action="#">
+                    <div class="newsletter-header">
+                        <h3 class="newsletter-title">Güncel indirimlerden haberdar ol</h3>
+
+                        <p class="newsletter-desc">
+                            En güncel indirimlerden haberdar olmak için
+                            <b>TayfunMarket</b> E-Postasına abone olabilirsin.
+                        </p>
+                    </div>
+
+                    <input type="email" name="email" class="email-field" placeholder="E-Posta Adresi" required />
+
+                    <button type="submit" class="btn-newsletter">Abone ol</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--
+    - NOTIFICATION TOAST
+  -->
+
+    <div class="notification-toast" data-toast>
+        <button class="toast-close-btn" data-toast-close>
+            <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <div class="toast-banner">
+            <img src="../assets/images/products/jewellery-1.jpg" alt="Rose Gold Earrings" width="80" height="70" />
+        </div>
+
+        <div class="toast-detail">
+            <p class="toast-message">Biri az önce şunu aldı</p>
+
+            <p class="toast-title">Rose Gold Earrings</p>
+
+            <p class="toast-meta"><time datetime="PT2M">2 dakika</time> önce</p>
+        </div>
+    </div>
+
+    <!--
+    - HEADER
+  -->
+
+    <header>
+        <div class="header-main">
+            <div class="container">
+                <a href="#" class="header-logo">
+                    <img src="../assets/images/logo.png" alt="TayfunMarket logo" width="300" />
+                </a>
+
+                <div class="header-search-container">
+                    <input type="search" name="search" class="search-field" placeholder="Eve ne lazım?" />
+
+                    <button class="search-btn">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </button>
+                </div>
+
+                <div class="header-user-actions">
+                    <button class="action-btn">
+                        <ion-icon name="person-outline"></ion-icon>
+                    </button>
+
+                    <button class="action-btn">
+                        <ion-icon name="heart-outline"></ion-icon>
+                        <span class="count">0</span>
+                    </button>
+
+                    <button class="action-btn">
+                        <ion-icon name="bag-handle-outline"></ion-icon>
+                        <span class="count">0</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <nav class="desktop-navigation-menu">
+            <div class="container">
+                <ul class="desktop-menu-category-list">
+                    <li class="menu-category">
+                        <a href="#" class="menu-title">Ana Sayfa</a>
+                    </li>
+
+                    <li class="menu-category">
+                        <a href="#" class="menu-title">Kategoriler</a>
+
+                        <div class="dropdown-panel">
+                            <ul class="dropdown-panel-list">
+                                <li class="menu-title">
+                                    <a href="#">Su & İçecek</a>
+                                </li>
+                            </ul>
+
+                            <ul class="dropdown-panel-list">
+                                <li class="menu-title">
+                                    <a href="#">Meyve & Sebze</a>
+                                </li>
+                            </ul>
+
+                            <ul class="dropdown-panel-list">
+                                <li class="menu-title">
+                                    <a href="#">Fırından</a>
+                                </li>
+                            </ul>
+
+                            <ul class="dropdown-panel-list">
+                                <li class="menu-title">
+                                    <a href="#">Temel Gıda</a>
+                                </li>
+                            </ul>
+
+                            <ul class="dropdown-panel-list">
+                                <li class="menu-title">
+                                    <a href="#">Atıştırmalık</a>
+                                </li>
+                            </ul>
+
+                            <ul class="dropdown-panel-list">
+                                <li class="menu-title">
+                                    <a href="#">Yiyecek</a>
+                                </li>
+                            </ul>
+
+                            <ul class="dropdown-panel-list">
+                                <li class="menu-title">
+                                    <a href="#">Fit & Form</a>
+                                </li>
+                            </ul>
+
+                            <ul class="dropdown-panel-list">
+                                <li class="menu-title">
+                                    <a href="#">Kişisel Bakım</a>
+                                </li>
+                            </ul>
+
+                            <ul class="dropdown-panel-list">
+                                <li class="menu-title">
+                                    <a href="#">Ev & Yaşam</a>
+                                </li>
+                            </ul>
+
+                            <ul class="dropdown-panel-list">
+                                <li class="menu-title">
+                                    <a href="#">Teknoloji</a>
+                                </li>
+                            </ul>
+
+                            <ul class="dropdown-panel-list">
+                                <li class="menu-title">
+                                    <a href="#">Evcil Hayvan</a>
+                                </li>
+                            </ul>
+
+                            <ul class="dropdown-panel-list">
+                                <li class="menu-title">
+                                    <a href="#">Bebek</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="menu-category">
+                        <a href="#" class="menu-title">Kampanyalar</a>
+                    </li>
+
+                    <li class="menu-category">
+                        <a href="#" class="menu-title">Uygulamayı indir</a>
+                    </li>
+
+                    <li class="menu-category">
+                        <a href="#" class="menu-title">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="mobile-bottom-navigation">
+
+            <button class="action-btn" data-mobile-menu-open-btn>
+                <ion-icon name="menu-outline"></ion-icon>
+            </button>
+
+            <button class="action-btn">
+                <ion-icon name="bag-handle-outline"></ion-icon>
+
+                <span class="count">0</span>
+            </button>
+
+            <button class="action-btn">
+                <ion-icon name="home-outline"></ion-icon>
+            </button>
+
+            <button class="action-btn">
+                <ion-icon name="heart-outline"></ion-icon>
+
+                <span class="count">0</span>
+            </button>
+
+            <button class="action-btn" data-mobile-menu-open-btn>
+                <ion-icon name="grid-outline"></ion-icon>
+            </button>
+
+        </div>
+
+        <nav class="mobile-navigation-menu  has-scrollbar" data-mobile-menu>
+
+            <div class="menu-top">
+                <h2 class="menu-title">Menü</h2>
+
+                <button class="menu-close-btn" data-mobile-menu-close-btn>
+                    <ion-icon name="close-outline"></ion-icon>
+                </button>
+            </div>
+
+            <ul class="mobile-menu-category-list">
+
+                <li class="menu-category">
+                    <a href="#" class="menu-title">Ana Sayfa</a>
+                </li>
+
+                <li class="menu-category">
+                    <a href="#" class="menu-title">Kategoriler</a>
+                </li>
+
+                <li class="menu-category">
+                    <a href="#" class="menu-title">Kampanyalar</a>
+                </li>
+
+                <li class="menu-category">
+                    <a href="#" class="menu-title">Uygulamayı İndir</a>
+                </li>
+
+                <li class="menu-category">
+                    <a href="#" class="menu-title">Blog</a>
+                </li>
+            </ul>
+
+            <div class="menu-bottom">
+
+                <ul class="menu-category-list">
+
+                    <li class="menu-category">
+
+                    <li class="menu-category">
+                        <a href="#" class="menu-title">Kayıt Ol</a>
+                    </li>
+
+                    <li class="menu-category">
+                        <a href="#" class="menu-title">Giriş Yap</a>
+                    </li>
+
+                    </li>
+
+                </ul>
+
+                <ul class="menu-social-container">
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+    </header>
+
+    <!--
+    - MAIN
+  -->
+
+    <main>
+
+        <div class="tum-kategoriler">
+            <div class="container">
+                <h1 style="font-weight: 400; padding-top: 30px;">Hakkımızda</h1>
+                <div>
+                    <h3 style="font-weight: 700; padding-top: 20px; padding-bottom: 7px;">Misyonumuz ve Vizyonumuz</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa soluta maxime eius ad obcaecati
+                        modi voluptatem voluptas et, error, optio provident dolorum perferendis tempora vero esse ipsam
+                        explicabo repellendus a!</p>
+                </div>
+
+                <div class="iletisim">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6117.331511894171!2d32.01536500728286!3d41.56156100822502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x409b818ee0dd1a37%3A0xb639bc0cc5755193!2sM%20Migros!5e0!3m2!1str!2str!4v1701852686069!5m2!1str!2str"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div>
+                        <h3 style="font-weight: 700; padding-bottom: 10px;">İletişim</h3>
+                        <li>
+                            <ul>
+                                <p>Telefon: (372) 999 99 99</p>
+                            </ul>
+                            <ul>
+                                <p>Adres: Öteyüz Mh, Filyos Bld, Namık Kemal Sk, 67660 Filyos/Zonguldak</p>
+                            </ul>
+                            <ul>
+                                <p>Mail: tyfnacici@gmail.com</p>
+                            </ul>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="blog">
+            <div class="container">
+                <h1 style="font-weight: 100; padding-bottom: 20px;">Blog Yazılarımız</h1>
+                <div class="blog-container has-scrollbar">
+                    <div class="blog-card">
+                        <a href="#">
+                            <img src="../assets/images/blog-1.jpg"
+                                alt="Clothes Retail KPIs 2021 Guide for Clothes Executives" width="300"
+                                class="blog-banner" />
+                        </a>
+
+                        <div class="blog-content">
+                            <a href="#" class="blog-category">Fashion</a>
+
+                            <a href="#">
+                                <h3 class="blog-title">
+                                    Clothes Retail KPIs 2021 Guide for Clothes Executives.
+                                </h3>
+                            </a>
+
+                            <p class="blog-meta">
+                                By <cite>Mr Admin</cite> /
+                                <time datetime="2022-04-06">Apr 06, 2022</time>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <a href="#">
+                            <img src="../assets/images/blog-2.jpg"
+                                alt="Curbside fashion Trends: How to Win the Pickup Battle." class="blog-banner"
+                                width="300" />
+                        </a>
+
+                        <div class="blog-content">
+                            <a href="#" class="blog-category">Clothes</a>
+
+                            <h3>
+                                <a href="#" class="blog-title">Curbside fashion Trends: How to Win the Pickup
+                                    Battle.</a>
+                            </h3>
+
+                            <p class="blog-meta">
+                                By <cite>Mr Robin</cite> /
+                                <time datetime="2022-01-18">Jan 18, 2022</time>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <a href="#">
+                            <img src="../assets/images/blog-3.jpg"
+                                alt="EBT vendors: Claim Your Share of SNAP Online Revenue." class="blog-banner"
+                                width="300" />
+                        </a>
+
+                        <div class="blog-content">
+                            <a href="#" class="blog-category">Shoes</a>
+
+                            <h3>
+                                <a href="#" class="blog-title">EBT vendors: Claim Your Share of SNAP Online Revenue.</a>
+                            </h3>
+
+                            <p class="blog-meta">
+                                By <cite>Mr Selsa</cite> /
+                                <time datetime="2022-02-10">Feb 10, 2022</time>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <a href="#">
+                            <img src="../assets/images/blog-4.jpg"
+                                alt="Curbside fashion Trends: How to Win the Pickup Battle." class="blog-banner"
+                                width="300" />
+                        </a>
+
+                        <div class="blog-content">
+                            <a href="#" class="blog-category">Electronics</a>
+
+                            <h3>
+                                <a href="#" class="blog-title">Curbside fashion Trends: How to Win the Pickup
+                                    Battle.</a>
+                            </h3>
+
+                            <p class="blog-meta">
+                                By <cite>Mr Pawar</cite> /
+                                <time datetime="2022-03-15">Mar 15, 2022</time>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--
+    - FOOTER
+  -->
+
+    <footer>
+        <div class="footer-nav">
+            <div class="container" id="nav-list">
+                <ul class="footer-nav-list">
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">TayfunMarket Uygulamasını İndirin!</h2>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link"><img src="../assets/images/Google Play Store Badge.png"
+                                class="download"></a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link"><img src="../assets/images/App Store Badge.png"
+                                class="download"></a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link"><img src="../assets/images/AppGallery white badge.png"
+                                class="download"></a>
+                    </li>
+                </ul>
+
+                <ul class="footer-nav-list">
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">Yardıma ihtiyacınız mı var?</h2>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Sıkça Sorulan Sorular</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Kişisel Verilerin Korunması</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Gizlilik Politikası</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Kullanım Koşulları</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Çerez Politikası</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">İşlem Rehberi</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-nav-list">
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">TayfunMarket'i Keşfedin</h2>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Hakkımızda</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Kariyer</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Teknoloji Kariyerleri</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">İletişim</a>
+                    </li>
+
+                    <li class="footer-nav-item">
+                        <a href="#" class="footer-nav-link">Sosyal Sorumluluk Projeleri</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-nav-list">
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">İletişim</h2>
+                    </li>
+
+                    <li class="footer-nav-item flex">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <address class="content">
+                            Öteyüz Mh, Filyos Bld, Namık Kemal Sk, 67660 Filyos/Zonguldak
+                        </address>
+                    </li>
+
+                    <li class="footer-nav-item flex">
+                        <div class="icon-box">
+                            <ion-icon name="call-outline"></ion-icon>
+                        </div>
+
+                        <a href="" class="footer-nav-link">(372) 999 99 99</a>
+                    </li>
+
+                    <li class="footer-nav-item flex">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <a href="mailto:tyfnacici@gmail.com" class="footer-nav-link">tyfnacici@gmail.com</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-nav-list">
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">Bizi Takip Edin!</h2>
+                    </li>
+
+                    <li>
+                        <ul class="social-link">
+                            <li class="footer-nav-item">
+                                <a href="#" class="footer-nav-link">
+                                    <ion-icon name="logo-facebook"></ion-icon>
+                                </a>
+                            </li>
+
+                            <li class="footer-nav-item">
+                                <a href="https://twitter.com/tyfnacici" class="footer-nav-link">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </a>
+                            </li>
+
+                            <li class="footer-nav-item">
+                                <a href="https://linkedin.com/id/tyfnacici" class="footer-nav-link">
+                                    <ion-icon name="logo-linkedin"></ion-icon>
+                                </a>
+                            </li>
+
+                            <li class="footer-nav-item">
+                                <a href="https://www.instagram.com/tyfnacici" class="footer-nav-link">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <img src="../assets/images/payment.png" alt="payment method" class="payment-img" />
+
+                <p class="copyright">
+                    Copyright &copy; <a href="#">TayfunMarket</a> all rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!--
+    - custom js link
+  -->
+    <script src="../assets/js/script.js"></script>
+    <!--
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

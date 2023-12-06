@@ -1846,6 +1846,21 @@ Kategoriler
   justify-content: center;
 }
 
+/* 
+İletişim
+*/
+
+.iletisim {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+iframe {
+  width: auto; height:400px;
+  padding-bottom: 30px;
+}
 
 /*-----------------------------------*\
   #FOOTER
