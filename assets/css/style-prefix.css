@@ -1867,22 +1867,24 @@ iframe {
 .kampanya {
   display: flex;
   flex-direction: column;
+  margin: auto;
   align-items: center;
-  border: 2px solid rgb(234, 234, 234);
-  border-radius: 12px;
+  border: 3px solid rgb(234, 234, 234);
+  border-radius: 14px;
 }
 
 .kampanya-resim {
-  height: 13rem;
-  border-radius: 10px 10px 0 0;
+  height: 12rem;
+  width: fit-content;
+  border-radius: 12px 12px 0 0;
   margin-bottom: 10px;
 }
 
 .kampanyalar {
   display: grid;
   grid-template-rows: auto; /* Auto column */
-  grid-template-columns: repeat(3, 1fr); /* 3 rows with equal height */
-  gap: 40px; /* Adjust the gap as per your design */
+  grid-template-columns: repeat(1, 1fr); /* 3 rows with equal height */
+  gap: 30px; /* Adjust the gap as per your design */
   margin: 0; /* Remove default margin */
 }
 
@@ -2217,6 +2219,9 @@ footer {
     initial-letter: 2;
   }
 
+  /* Kampanya */
+
+
   /**
    * #FOOTER
    */
@@ -2304,6 +2309,32 @@ footer {
   .banner-content {
     background: none;
   }
+
+  /* Kampanya */
+
+.kampanya {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  border: 3px solid rgb(234, 234, 234);
+  border-radius: 14px;
+}
+
+.kampanya-resim {
+  height: 15rem;
+  width: fit-content;
+  border-radius: 12px 12px 0 0;
+  margin-bottom: 10px;
+}
+
+.kampanyalar {
+  display: grid;
+  grid-template-rows: auto; /* Auto column */
+  grid-template-columns: repeat(1, 1fr); /* 3 rows with equal height */
+  gap: 30px; /* Adjust the gap as per your design */
+  margin: 0; /* Remove default margin */
+}
 
   /**
    * #PRODUCT
@@ -2476,6 +2507,35 @@ footer {
     --fs-11: 0.75rem;
   }
 
+
+
+  /* Kampanya */
+
+.kampanya {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  border: 3px solid rgb(234, 234, 234);
+  border-radius: 14px;
+}
+
+.kampanya-resim {
+  height: 10rem;
+  width: fit-content;
+  border-radius: 12px 12px 0 0;
+  margin-bottom: 10px;
+}
+
+.kampanyalar {
+  display: grid;
+  grid-template-rows: auto; /* Auto column */
+  grid-template-columns: repeat(2, 1fr); /* 3 rows with equal height */
+  gap: 30px; /* Adjust the gap as per your design */
+  margin: 0; /* Remove default margin */
+}
+
+  
   /**
    * #PRODUCT 
    */
@@ -2892,6 +2952,33 @@ footer {
     display: none;
   }
 
+
+  /* Kampanya */
+
+.kampanya {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  border: 3px solid rgb(234, 234, 234);
+  border-radius: 14px;
+}
+
+.kampanya-resim {
+  height: 10rem;
+  width: fit-content;
+  border-radius: 12px 12px 0 0;
+  margin-bottom: 10px;
+}
+
+.kampanyalar {
+  display: grid;
+  grid-template-rows: auto; /* Auto column */
+  grid-template-columns: repeat(3, 1fr); /* 3 rows with equal height */
+  gap: 30px; /* Adjust the gap as per your design */
+  margin: 0; /* Remove default margin */
+}
+
   /**
    * #BANNER 
    */
@@ -3116,6 +3203,33 @@ footer {
       grid-template-columns: repeat(4, 1fr);
     }
 
+
+  /* Kampanya */
+
+.kampanya {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  border: 3px solid rgb(234, 234, 234);
+  border-radius: 14px;
+}
+
+.kampanya-resim {
+  height: 12rem;
+  width: fit-content;
+  border-radius: 12px 12px 0 0;
+  margin-bottom: 10px;
+}
+
+.kampanyalar {
+  display: grid;
+  grid-template-rows: auto; /* Auto column */
+  grid-template-columns: repeat(3, 1fr); /* 3 rows with equal height */
+  gap: 30px; /* Adjust the gap as per your design */
+  margin: 0; /* Remove default margin */
+}
+
     /**
    * #BLOG
    */
@@ -3190,6 +3304,33 @@ footer {
       .container {
         max-width: 1350px;
       }
+
+
+  /* Kampanya */
+
+.kampanya {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  border: 3px solid rgb(234, 234, 234);
+  border-radius: 14px;
+}
+
+.kampanya-resim {
+  height: 12rem;
+  width: fit-content;
+  border-radius: 12px 12px 0 0;
+  margin-bottom: 10px;
+}
+
+.kampanyalar {
+  display: grid;
+  grid-template-rows: auto; /* Auto column */
+  grid-template-columns: repeat(3, 1fr); /* 3 rows with equal height */
+  gap: 30px; /* Adjust the gap as per your design */
+  margin: 0; /* Remove default margin */
+}
 
       /**
    * #BANNER
