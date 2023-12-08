@@ -916,7 +916,8 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .banner-btn:hover {
-  background: var(--eerie-black);
+  background: var(--orange);
+  color:black;
 }
 
 #carausel {
