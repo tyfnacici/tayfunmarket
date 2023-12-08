@@ -254,22 +254,22 @@
 
       <div class="menu-top">
         <h2 class="menu-title">Menü</h2>
-    
+
         <button class="menu-close-btn" data-mobile-menu-close-btn>
           <ion-icon name="close-outline"></ion-icon>
         </button>
       </div>
-    
+
       <ul class="mobile-menu-category-list">
-    
+
         <li class="menu-category">
           <a href="./index.html" class="menu-title">Ana Sayfa</a>
         </li>
-    
+
         <li class="menu-category">
           <div class="dropdown">
-            <a href="#" class="menu-title" id="kategorilerDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false">
+            <a href="#" class="menu-title" id="kategorilerDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
               Kategoriler
             </a>
             <div class="dropdown-menu" aria-labelledby="kategorilerDropdown">
@@ -286,68 +286,68 @@
               <a class="dropdown-item" href="./kategoriler/teknoloji.html">Teknoloji</a>
               <a class="dropdown-item" href="./kategoriler/ev-yasam.html">Evcil Hayvan</a>
               <a class="dropdown-item" href="./kategoriler/bebek.html">Bebek</a>
-          
+
               <!-- Add more dropdown items as needed -->
             </div>
           </div>
         </li>
-    
+
         <li class="menu-category">
           <a href="./kampanyalar/index.html" class="menu-title">Kampanyalar</a>
         </li>
-    
+
         <li class="menu-category">
           <a href="#" class="menu-title">Uygulamayı İndir</a>
         </li>
       </ul>
-    
+
       <div class="menu-bottom">
-    
+
         <ul class="menu-category-list">
           <!-- Add other menu items as needed -->
           <li class="menu-category">
             <a href="#" class="menu-title">Kayıt Ol</a>
           </li>
-    
+
           <li class="menu-category">
             <a href="#" class="menu-title">Giriş Yap</a>
           </li>
-    
+
         </ul>
-    
+
         <ul class="menu-social-container">
           <!-- Add social links as needed -->
-    
+
           <li>
             <a href="#" class="social-link">
               <ion-icon name="logo-facebook"></ion-icon>
             </a>
           </li>
-    
+
           <li>
             <a href="#" class="social-link">
               <ion-icon name="logo-twitter"></ion-icon>
             </a>
           </li>
-    
+
           <li>
             <a href="#" class="social-link">
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
           </li>
-    
+
           <li>
             <a href="#" class="social-link">
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
-    
+
         </ul>
-    
+
       </div>
-    
+
     </nav>
-    
+
   </header>
 
   <!--
@@ -362,23 +362,23 @@
       <div class="container" id="carausel">
         <div class="slider-container" id="slider-container">
           <div class="slider-item">
-            <img src="./assets/images/banner-1.png" alt="women's latest fashion sale" class="banner-img"
-              id="slider-img" />
-
+            <img src="./assets/images/banner-1.png" alt="women's latest fashion sale" class="banner-img" id="slider-img" onclick="openModal()" />
+            <!-- Add the onclick attribute with the index of the banner -->
             <div class="banner-content">
               <p class="banner-subtitle" id="banner-subtitle">Yılın Son Fırsatı</p>
-
               <h2 class="banner-title" id="banner-title">Harcadıkça Kazan</h2>
-
-              <p class="banner-text" id="banner-text">*İndirimleri kullanabilmek için minimum 750TL'lik sepet oluşturulması
-                gerekmektedir</p>
-
-              <a href="./kampanyalar/index.html" class="banner-btn" id="banner-btn">Daha fazlası için tıkla</a>
+              <p class="banner-text" id="banner-text">
+                *İndirimleri kullanabilmek için minimum 750TL'lik sepet oluşturulması gerekmektedir
+              </p>
+              <a href="./kampanyalar/index.html" class="banner-btn" id="banner-btn">
+                Daha fazlası için tıkla
+              </a>
             </div>
           </div>
         </div>
       </div>
     </div>
+
 
     <!--
       - PRODUCT
@@ -854,7 +854,7 @@
                     <img src="./assets/images/products/shampoo.jpg" alt="shampoo, conditioner & facewash packs"
                       class="showcase-img" />
                   </div>
-              
+
                   <div class="showcase-content">
                     <div class="showcase-rating">
                       <ion-icon name="star"></ion-icon>
@@ -863,56 +863,56 @@
                       <ion-icon name="star-outline"></ion-icon>
                       <ion-icon name="star-outline"></ion-icon>
                     </div>
-              
+
                     <a href="#">
                       <h3 class="showcase-title">
                         shampoo, conditioner & facewash packs
                       </h3>
                     </a>
-              
+
                     <p class="showcase-desc">
                       Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor
                       dolor sit amet consectetur Lorem ipsum dolor
                     </p>
-              
+
                     <div class="price-box">
                       <p class="price">$150.00</p>
-              
+
                       <del>$200.00</del>
                     </div>
-              
+
                     <button class="add-cart-btn">add to cart</button>
-              
+
                     <div class="showcase-status">
                       <div class="wrapper">
                         <p>already sold: <b>20</b></p>
-              
+
                         <p>available: <b>40</b></p>
                       </div>
-              
+
                       <div class="showcase-status-bar"></div>
                     </div>
-              
+
                     <div class="countdown-box">
                       <p class="countdown-desc">Hurry Up! Offer ends in:</p>
-              
+
                       <div class="countdown">
                         <div class="countdown-content">
                           <p class="display-number">360</p>
-              
+
                           <p class="display-text">Days</p>
                         </div>
-              
+
                         <div class="countdown-content">
                           <p class="display-number">24</p>
                           <p class="display-text">Hours</p>
                         </div>
-              
+
                         <div class="countdown-content">
                           <p class="display-number">59</p>
                           <p class="display-text">Min</p>
                         </div>
-              
+
                         <div class="countdown-content">
                           <p class="display-number">00</p>
                           <p class="display-text">Sec</p>
@@ -922,14 +922,14 @@
                   </div>
                 </div>
               </div>
-              
+
               <div class="showcase-container">
                 <div class="showcase">
                   <div class="showcase-banner">
                     <img src="./assets/images/products/shampoo.jpg" alt="shampoo, conditioner & facewash packs"
                       class="showcase-img" />
                   </div>
-              
+
                   <div class="showcase-content">
                     <div class="showcase-rating">
                       <ion-icon name="star"></ion-icon>
@@ -938,56 +938,56 @@
                       <ion-icon name="star-outline"></ion-icon>
                       <ion-icon name="star-outline"></ion-icon>
                     </div>
-              
+
                     <a href="#">
                       <h3 class="showcase-title">
                         shampoo, conditioner & facewash packs
                       </h3>
                     </a>
-              
+
                     <p class="showcase-desc">
                       Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor
                       dolor sit amet consectetur Lorem ipsum dolor
                     </p>
-              
+
                     <div class="price-box">
                       <p class="price">$150.00</p>
-              
+
                       <del>$200.00</del>
                     </div>
-              
+
                     <button class="add-cart-btn">add to cart</button>
-              
+
                     <div class="showcase-status">
                       <div class="wrapper">
                         <p>already sold: <b>20</b></p>
-              
+
                         <p>available: <b>40</b></p>
                       </div>
-              
+
                       <div class="showcase-status-bar"></div>
                     </div>
-              
+
                     <div class="countdown-box">
                       <p class="countdown-desc">Hurry Up! Offer ends in:</p>
-              
+
                       <div class="countdown">
                         <div class="countdown-content">
                           <p class="display-number">360</p>
-              
+
                           <p class="display-text">Days</p>
                         </div>
-              
+
                         <div class="countdown-content">
                           <p class="display-number">24</p>
                           <p class="display-text">Hours</p>
                         </div>
-              
+
                         <div class="countdown-content">
                           <p class="display-number">59</p>
                           <p class="display-text">Min</p>
                         </div>
-              
+
                         <div class="countdown-content">
                           <p class="display-number">00</p>
                           <p class="display-text">Sec</p>
@@ -997,14 +997,14 @@
                   </div>
                 </div>
               </div>
-              
+
               <div class="showcase-container">
                 <div class="showcase">
                   <div class="showcase-banner">
                     <img src="./assets/images/products/shampoo.jpg" alt="shampoo, conditioner & facewash packs"
                       class="showcase-img" />
                   </div>
-              
+
                   <div class="showcase-content">
                     <div class="showcase-rating">
                       <ion-icon name="star"></ion-icon>
@@ -1013,56 +1013,56 @@
                       <ion-icon name="star-outline"></ion-icon>
                       <ion-icon name="star-outline"></ion-icon>
                     </div>
-              
+
                     <a href="#">
                       <h3 class="showcase-title">
                         shampoo, conditioner & facewash packs
                       </h3>
                     </a>
-              
+
                     <p class="showcase-desc">
                       Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor
                       dolor sit amet consectetur Lorem ipsum dolor
                     </p>
-              
+
                     <div class="price-box">
                       <p class="price">$150.00</p>
-              
+
                       <del>$200.00</del>
                     </div>
-              
+
                     <button class="add-cart-btn">add to cart</button>
-              
+
                     <div class="showcase-status">
                       <div class="wrapper">
                         <p>already sold: <b>20</b></p>
-              
+
                         <p>available: <b>40</b></p>
                       </div>
-              
+
                       <div class="showcase-status-bar"></div>
                     </div>
-              
+
                     <div class="countdown-box">
                       <p class="countdown-desc">Hurry Up! Offer ends in:</p>
-              
+
                       <div class="countdown">
                         <div class="countdown-content">
                           <p class="display-number">360</p>
-              
+
                           <p class="display-text">Days</p>
                         </div>
-              
+
                         <div class="countdown-content">
                           <p class="display-number">24</p>
                           <p class="display-text">Hours</p>
                         </div>
-              
+
                         <div class="countdown-content">
                           <p class="display-number">59</p>
                           <p class="display-text">Min</p>
                         </div>
-              
+
                         <div class="countdown-content">
                           <p class="display-number">00</p>
                           <p class="display-text">Sec</p>
@@ -1761,8 +1761,7 @@
         <div class="blog-container has-scrollbar">
           <div class="blog-card">
             <a href="./blog/e-ticarette-basarili-bir-baslangic-icin-ipuclari.html">
-              <img src="./assets/images/blog-1.jpg"
-                width="300" class="blog-banner" />
+              <img src="./assets/images/blog-1.jpg" width="300" class="blog-banner" />
             </a>
 
             <div class="blog-content">
@@ -1782,14 +1781,14 @@
 
           <div class="blog-card">
             <a href="./blog/musteri-deneyiminde-mukemmelliyet.html">
-              <img src="./assets/images/blog-2.jpg"
-                class="blog-banner" width="300" />
+              <img src="./assets/images/blog-2.jpg" class="blog-banner" width="300" />
             </a>
 
             <div class="blog-content">
 
               <h3>
-                <a href="./blog/musteri-deneyiminde-mukemmelliyet.html" class="blog-title">Müşteri Deneyiminde Mükemmeliyet</a>
+                <a href="./blog/musteri-deneyiminde-mukemmelliyet.html" class="blog-title">Müşteri Deneyiminde
+                  Mükemmeliyet</a>
               </h3>
 
               <p class="blog-meta">
@@ -1801,8 +1800,7 @@
 
           <div class="blog-card">
             <a href="./blog/e-ticarette-guvenlik.html">
-              <img src="./assets/images/blog-3.jpg"
-                class="blog-banner" width="300" />
+              <img src="./assets/images/blog-3.jpg" class="blog-banner" width="300" />
             </a>
 
             <div class="blog-content">
@@ -1820,14 +1818,14 @@
 
           <div class="blog-card">
             <a href="./blog/dijital-pazarlama-stratejileri.html">
-              <img src="./assets/images/blog-4.jpg"
-                class="blog-banner" width="300" />
+              <img src="./assets/images/blog-4.jpg" class="blog-banner" width="300" />
             </a>
 
             <div class="blog-content">
 
               <h3>
-                <a href="./blog/dijital-pazarlama-stratejileri.html" class="blog-title">Dijital Pazarlama Stratejileri</a>
+                <a href="./blog/dijital-pazarlama-stratejileri.html" class="blog-title">Dijital Pazarlama
+                  Stratejileri</a>
               </h3>
 
               <p class="blog-meta">
@@ -1853,7 +1851,8 @@
             <h2 class="nav-title">TayfunMarket Uygulamasını İndirin!</h2>
           </li>
           <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link"><img src="./assets/images/Google Play Store Badge.png" class="download"></a>
+            <a href="#" class="footer-nav-link"><img src="./assets/images/Google Play Store Badge.png"
+                class="download"></a>
           </li>
 
           <li class="footer-nav-item">
@@ -1861,7 +1860,8 @@
           </li>
 
           <li class="footer-nav-item">
-            <a href="#" class="footer-nav-link"><img src="./assets/images/AppGallery white badge.png" class="download"></a>
+            <a href="#" class="footer-nav-link"><img src="./assets/images/AppGallery white badge.png"
+                class="download"></a>
           </li>
         </ul>
 
@@ -2012,11 +2012,31 @@
       "./assets/images/banner-1.png",
     ]
 
-                              const bannerSubtitles = ["Yılın Son Fırsatı", "Sil Süpür!", "Yılbaşı Sepetlerini"];
-                              const bannerTitles = ["Harcadıkça Kazan", "7-10 Aralık", "İnceledin mi?"]
-                              const bannerTexts = ["*İndirimleri kullanabilmek için minimum 750TL'lik sepet oluşturulması gerekmektedir.", "*İndirimli Fiyatlar ve Tüm Kampanyalar TayfunKart veya TayfunKartBonus ile Yapılan Alışverişlerde Geçerlidir.", "*İndirimli Fiyatlar ve Tüm Kampanyalar TayfunKart veya TayfunKartBonus ile Yapılan Alışverişlerde Geçerlidir."]
+    const bannerSubtitles = ["Yılın Son Fırsatı", "Sil Süpür!", "Yılbaşı Sepetlerini"];
+    const bannerTitles = ["Harcadıkça Kazan", "7-10 Aralık", "İnceledin mi?"]
+    const bannerTexts = ["*İndirimleri kullanabilmek için minimum 750TL'lik sepet oluşturulması gerekmektedir.", "*İndirimli Fiyatlar ve Tüm Kampanyalar TayfunKart veya TayfunKartBonus ile Yapılan Alışverişlerde Geçerlidir.", "*İndirimli Fiyatlar ve Tüm Kampanyalar TayfunKart veya TayfunKartBonus ile Yapılan Alışverişlerde Geçerlidir."]
+    const bannerLinks = ["./kampanyalar/kampanya-1.html", "./kampanyalar/kampanya-2.html", "./kampanyalar/kampanya-3.html"]
 
-    function changeImageWithCycle() {
+    function openModal() {
+    // Get the modal content elements
+    const modalContent = document.querySelector('.modal-content');
+    const bannerTitle = document.getElementById("banner-title").innerText;
+    const bannerIndex = bannerTitles.findIndex(title => title.toLocaleLowerCase('tr') === bannerTitle.toLocaleLowerCase('tr'));
+
+    // Update modal content based on the clicked banner
+    modalContent.innerHTML = `<div style="padding: 30px; display:flex; flex-direction: column; align-items: center; justify-content: center;"><button class="modal-close-btn" data-modal-close> <ion-icon name="close-outline"></ion-icon></button><h3>${bannerTitles[bannerIndex]}</h3><br><p>${bannerTexts[bannerIndex]}</p><a href=${bannerLinks[bannerIndex]}><button class="btn-newsletter">Detaylar</button></a></div>`
+
+    // Additional logic to handle other modal content based on your requirements
+
+    // Show the modal
+    modal.classList.remove('closed');
+
+    // Attach the event listener for closing the modal with the close button
+    const modalCloseBtn = document.querySelector('[data-modal-close]');
+    modalCloseBtn.addEventListener('click', modalCloseFunc);
+  }
+
+  function changeImageWithCycle() {
       const imageElement = document.getElementById("slider-img")
       const bannerSubtitle = document.getElementById("banner-subtitle")
       const bannerTitle = document.getElementById("banner-title")
@@ -2029,8 +2049,6 @@
         // After the animation duration, change the image source
         setTimeout(function () {
           imageIndex = (imageIndex + 1) % imageSources.length
-
-          console.log(bannerTitle[imageIndex])
           bannerSubtitle.innerText = bannerSubtitles[imageIndex]
           bannerTitle.innerText = bannerTitles[imageIndex]
           bannerText.innerText = bannerTexts[imageIndex]
