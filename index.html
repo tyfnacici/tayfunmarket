@@ -2012,19 +2012,19 @@
       "./assets/images/banner-1.png",
     ]
 
-    const bannerSubtitles = ["Yılın Son Fırsatı", "Sil Süpür!", "Yılbaşı Sepetlerini"];
-    const bannerTitles = ["Harcadıkça Kazan", "7-10 Aralık", "İnceledin mi?"]
+    const bannerSubtitles = ["Yılın Son Fırsatı", "Sil Süpür!", "Bisküvi, Kek ve Gofretlerde"];
+    const bannerTitles = ["Harcadıkça Kazan", "7-10 Aralık", "%25 indirim!"]
     const bannerTexts = ["*İndirimleri kullanabilmek için minimum 750TL'lik sepet oluşturulması gerekmektedir.", "*İndirimli Fiyatlar ve Tüm Kampanyalar TayfunKart veya TayfunKartBonus ile Yapılan Alışverişlerde Geçerlidir.", "*İndirimli Fiyatlar ve Tüm Kampanyalar TayfunKart veya TayfunKartBonus ile Yapılan Alışverişlerde Geçerlidir."]
     const bannerLinks = ["./kampanyalar/kampanya-1.html", "./kampanyalar/kampanya-2.html", "./kampanyalar/kampanya-3.html"]
 
     function openModal() {
     // Get the modal content elements
     const modalContent = document.querySelector('.modal-content');
-    const bannerTitle = document.getElementById("banner-title").innerText;
-    const bannerIndex = bannerTitles.findIndex(title => title.toLocaleLowerCase('tr') === bannerTitle.toLocaleLowerCase('tr'));
+    const bannerSubtitle = document.getElementById("banner-subtitle").innerText;
+    const bannerIndex = bannerSubtitles.findIndex(title => title.toLocaleLowerCase('tr') === bannerSubtitle.toLocaleLowerCase('tr'));
 
     // Update modal content based on the clicked banner
-    modalContent.innerHTML = `<div style="padding: 30px; display:flex; flex-direction: column; align-items: center; justify-content: center;"><button class="modal-close-btn" data-modal-close> <ion-icon name="close-outline"></ion-icon></button><h3>${bannerTitles[bannerIndex]}</h3><br><p>${bannerTexts[bannerIndex]}</p><a href=${bannerLinks[bannerIndex]}><button class="btn-newsletter">Detaylar</button></a></div>`
+    modalContent.innerHTML = `<div style="padding: 30px; display:flex; flex-direction: column; align-items: center; justify-content: center;"><button class="modal-close-btn" data-modal-close> <ion-icon name="close-outline"></ion-icon></button><h3>${bannerSubtitles[bannerIndex] + " " + bannerTitles[bannerIndex]}</h3><br><p>${bannerTexts[bannerIndex]}</p><a href=${bannerLinks[bannerIndex]}><button class="btn-newsletter">Detaylar</button></a></div>`
 
     // Additional logic to handle other modal content based on your requirements
 
