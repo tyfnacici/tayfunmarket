@@ -1614,6 +1614,10 @@ body::-webkit-scrollbar-thumb:hover {
   transform: translateX(0);
 }
 
+.showcase-container {
+  margin: 7px 0 7px 0;
+}
+
 .product-grid .btn-action {
   background: var(--white);
   color: var(--sonic-silver);
@@ -2196,6 +2200,10 @@ footer {
     -ms-grid-columns: 1fr 30px 1fr;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
+  }
+
+  .showcase-container {
+    margin: 7px 0 7px 0;
   }
 
   #kategori-urunler {
